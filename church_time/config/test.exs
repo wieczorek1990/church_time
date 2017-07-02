@@ -15,5 +15,5 @@ config :church_time, ChurchTime.Repo,
   username: "postgres",
   password: "postgres",
   database: "church_time_test",
-  hostname: "localhost",
+  hostname: "postgres",
   pool: Ecto.Adapters.SQL.Sandbox

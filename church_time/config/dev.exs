@@ -53,5 +53,5 @@ config :church_time, ChurchTime.Repo,
   username: "postgres",
   password: "postgres",
   database: "church_time_dev",
-  hostname: "localhost",
+  hostname: "postgres",
   pool_size: 10
